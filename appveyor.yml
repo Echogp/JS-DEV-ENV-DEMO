@@ -9,6 +9,7 @@ install:
 test_script:
   - node --version
   - npm --version
+  - npm babel --version
   - npm test
 
 build: off
